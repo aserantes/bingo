@@ -6,7 +6,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import Toolbar from "@material-ui/core/Toolbar";
-import Grow from "@material-ui/core/Grow";
+import Zoom from "@material-ui/core/Zoom";
 
 import { newBoard, selectIsBingo } from "../board/boardSlice";
 import { Avatar } from "@material-ui/core";
@@ -54,7 +54,7 @@ export function Menu() {
         <Typography variant="h5" className={classes.title}>
           Poncho!
         </Typography>
-        <Grow in={isBingo}>
+        <Zoom in={isBingo}>
           <div>
             <Avatar
               alt="image of a rotating VolksWagen Beetle"
@@ -62,7 +62,7 @@ export function Menu() {
               className={classes.poncho}
             />
           </div>
-        </Grow>
+        </Zoom>
         <Button color="inherit" onClick={handleClick}>
           New Game
         </Button>

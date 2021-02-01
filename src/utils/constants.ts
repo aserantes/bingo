@@ -41,9 +41,7 @@ export const theme: string[] = [
   "Helicopter",
   "Cargo truck",
   "Tow truck",
-
-  "", // This space is reserved for Poncho, it will be ignored.
-
+  "Clouds",
   "Garbage truck",
   "Mail truck",
   "Fire truck",
