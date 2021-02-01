@@ -10,8 +10,6 @@ export function scrambleBoard(board: Card[]): Card[] {
 }
 
 function applyTheme(scrambledBoard: Card[], theme: string[]) {
-  console.log(JSON.stringify(scrambleBoard));
-  console.log(theme);
   return scrambledBoard.map((card, index) => {
     if (index !== 12) {
       return { ...card, label: theme[card.id] };
@@ -22,7 +20,6 @@ function applyTheme(scrambledBoard: Card[], theme: string[]) {
 }
 
 export function getNewBoard(): Card[] {
-  console.log("get called!!!");
   return applyTheme(scrambleBoard(initialBoard), theme);
 }
 

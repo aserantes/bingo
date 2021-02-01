@@ -2,7 +2,7 @@
 
 _A Bingo game implementation. First Tech Challenge for Sensory Minds._
 
-### > [Link to online production build](/////) <
+### > [Link to online production build](https://bingo.aserantes.vercel.app/) <
 
 ### Stack used
 
@@ -21,7 +21,7 @@ _A Bingo game implementation. First Tech Challenge for Sensory Minds._
 - `yarn install`
 - `yarn start`
 
-### > [Link to online production build](/////) <
+### > [Link to online production build](https://bingo.aserantes.vercel.app/) <
 
 **_Alejandro Serantes_**
 
